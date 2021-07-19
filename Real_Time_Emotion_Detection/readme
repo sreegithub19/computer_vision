@@ -1,0 +1,9 @@
+to run:
+
+python data_preparer.py   -> no output.
+python emotion_detector_evaluator.py  -> calculation of Total F1 Accuracy Score.
+python main.py  -> main output (in another window).
+
+Link to download the Shape predictor file: 
+https://github.com/tzutalin/dlib-android/blob/master/data/shape_predictor_68_face_landmarks.dat
+The file must be placed in the utils folder after downloading
