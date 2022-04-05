@@ -9,7 +9,7 @@ import os
 import tkinter as tk
 from tkinter import filedialog
 from tkinter import *
-from PIL import ImageTk, Image
+from PIL import ImageTk, Image   # Pillow
 
 top=tk.Tk()
 top.geometry('400x400')
