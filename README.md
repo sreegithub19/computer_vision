@@ -11,3 +11,8 @@ Steps to run:<br>
   &nbsp;&nbsp;&nbsp;&nbsp;(v) Save the image:<br><img width="401" alt="Screenshot 2022-04-05 at 21 13 05" src="https://user-images.githubusercontent.com/55496113/161792997-5a13b87f-2485-4737-8379-12560b4ebf1a.png"><br>
 
 <hr>
+
+3.
+brew install cmake<br>
+pip install face_recognition<br>
+python3 facematch.py<br>
