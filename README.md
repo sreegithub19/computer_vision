@@ -13,10 +13,11 @@ Steps to run:<br>
 <hr>
 
 3.
-brew install cmake<br>
-pip install face_recognition<br>
+Face Recognition Examples<br>
+<code>brew install cmake</code><br>
+<code>pip install face_recognition</code><br>
 <li>
-  <ul>python3 facematch.py</ul>
-  <ul>python3 findfaces.py</ul>
-  <ul>python3 facematch.py</ul>
+  <ul><code>python3 facematch.py</code></ul>
+  <ul><code>python3 findfaces.py</code></ul>
+  <ul><code>python3 facematch.py</code></ul>
 </li>
