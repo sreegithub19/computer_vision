@@ -2,7 +2,7 @@ import enum
 from os import listdir
 from typing import List, Dict, Optional, Iterable
 
-from utils.data_land_marker import LandMarker
+from utilities.data_land_marker import LandMarker
 
 FILE_SEPARATOR = '/'  # For Linux and MacOS
 LABEL_POSTFIX = '_emotion.txt'
@@ -104,7 +104,7 @@ class PreProcessor:
 
     @staticmethod
     def __filter_emotion_frame_sets(emotion_frame_sets: List[EmotionFrameSet]) -> List[EmotionFrameSet]:
-        filtered_emotion_frame_sets = []  # type: # type: List[EmotionFrameSet]
+        filtered_emotion_frame_sets = []  # type: List[EmotionFrameSet]
         for emotion_frame_set in emotion_frame_sets:
             if emotion_frame_set.emotion_label is not None:
                 all_img_paths = emotion_frame_set.img_paths

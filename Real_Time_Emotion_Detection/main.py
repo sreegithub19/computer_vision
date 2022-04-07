@@ -1,7 +1,7 @@
 import cv2.cv2 as cv2
 import numpy as np
 
-from utils.image_classifier import ImageClassifier, NO_FACE_LABEL
+from utilities.image_classifier import ImageClassifier, NO_FACE_LABEL
 
 # Color RGB Codes & Font
 WHITE_COLOR = (255, 255, 255)
@@ -110,8 +110,8 @@ def run_real_time_emotion_detector(
         predictor_path: str,
         dataset_csv: str,
         dataset_images_dir: str = None):
-    from utils.data_land_marker import LandMarker
-    from utils.image_classifier import ImageClassifier
+    from utilities.data_land_marker import LandMarker
+    from utilities.image_classifier import ImageClassifier
     from os.path import isfile
 
     land_marker = LandMarker(landmark_predictor_path=predictor_path)
@@ -132,7 +132,7 @@ if __name__ == "__main__":
     """The value of the parameters can change depending on the case."""
     run_real_time_emotion_detector(
         classifier_algorithm='RandomForest',  # Alternatively 'SVM'.
-        predictor_path='utils/shape_predictor_68_face_landmarks.dat',
+        predictor_path='utilities/shape_predictor_68_face_landmarks.dat',
         dataset_csv='data/csv/dataset.csv',
         dataset_images_dir='data/raw'
     )
