@@ -22,3 +22,9 @@ Face Recognition Examples<br>
   <ul><code>python3 identify.py</code></ul>
   <ul><code>python3 pullfaces.py</code></ul>
 </li>
+
+<hr>
+
+4.
+Face Detection
+<code> python3 Face.py </code>
