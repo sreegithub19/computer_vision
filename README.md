@@ -26,5 +26,5 @@ Face Recognition Examples<br>
 <hr>
 
 4.
-Face Detection
+Face Detection<br>
 <code> python3 Face.py </code>
