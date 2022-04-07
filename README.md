@@ -35,7 +35,7 @@ Foreground detection
 <code>python3 foreground_detection.py</code><br>
 <hr>
 
-6.
+6. (incomplete)
 Real Time Emotion Detection<br>
 <code>pip3 install sklearn utils</code><br>
 <code>python3 utils/data_transformer.py</code><br>
