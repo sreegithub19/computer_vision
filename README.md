@@ -19,7 +19,6 @@ Face Recognition Examples<br>
 <li>
   <ul><code>python3 facematch.py</code></ul>
   <ul><code>python3 findfaces.py</code></ul>
-  <ul><code>python3 facematch.py</code></ul>
   <ul><code>python3 identify.py</code></ul>
   <ul><code>python3 pullfaces.py</code></ul>
 </li>
