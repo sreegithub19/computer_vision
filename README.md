@@ -37,6 +37,11 @@ Foreground detection
 6.
 
 <hr>
+7.
+Real Time Face Mask Detection<br>
+<code>pip3 install -r requirements.txt</code>
+<code>python3 main.py</code>
+<hr>
 
 8. WebCam Paint
 <code> python3 Webcam_Paint_OpenCV.py </code>
