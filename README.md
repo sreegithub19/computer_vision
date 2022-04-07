@@ -28,6 +28,7 @@ Face Recognition Examples<br>
 4.
 Face Detection<br>
 <code> python3 Face.py </code><br>
+<hr>
 
 5.
 Foreground detection 
@@ -35,8 +36,13 @@ Foreground detection
 <hr>
 
 6.
-
+Real Time Emotion Detection<br>
+<code>pip3 install sklearn utils</code><br>
+<code>python3 utils/data_transformer.py</code><br>
+<code>python3 utils/data_land_marker.py</code><br>
+<code>python3 utils/image_classifier.py</code><br>
 <hr>
+
 7.
 Real Time Face Mask Detection<br>
 <code>pip3 install -r requirements.txt</code>
