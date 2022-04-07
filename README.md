@@ -32,7 +32,12 @@ Face Detection<br>
 5.
 Foreground detection 
 <code>python3 foreground_detection.py</code><br>
+<hr>
 
 6.
 
+<hr>
 
+8. WebCam Paint
+<code> python3 Webcam_Paint_OpenCV.py </code>
+<hr>
