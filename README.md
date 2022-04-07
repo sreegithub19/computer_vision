@@ -27,4 +27,12 @@ Face Recognition Examples<br>
 
 4.
 Face Detection<br>
-<code> python3 Face.py </code>
+<code> python3 Face.py </code><br>
+
+5.
+Foreground detection 
+<code>python3 foreground_detection.py</code><br>
+
+6.
+
+
