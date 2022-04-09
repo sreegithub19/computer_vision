@@ -13,7 +13,7 @@ Steps to run:<br>
 <hr>
 2.
 Color detection <br>
-Incomplete<br>
+<code>python color_detection.py -i image_name></code><br>
 <hr>
 3.
 Face Recognition Examples<br>
