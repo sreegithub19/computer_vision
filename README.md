@@ -42,7 +42,7 @@ Foreground detection
 
 6.
 Real Time Face Mask Detection<br>
-<code>pip3 install -r requirements.txt</code>
+<code>pip3 install -r requirements.txt</code><br>
 <code>python3 main.py</code>
 <hr>
 
