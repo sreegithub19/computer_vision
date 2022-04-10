@@ -10,7 +10,6 @@ import tkinter as tk
 from tkinter import filedialog
 from tkinter import *
 from PIL import ImageTk, Image   # Pillow
-import wget  # for image download
 
 top=tk.Tk()
 top.geometry('400x400')
