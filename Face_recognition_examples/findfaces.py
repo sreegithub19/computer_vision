@@ -1,6 +1,6 @@
 import face_recognition
 
-image = face_recognition.load_image_file('./img/groups/team1.jpg')
+image = face_recognition.load_image_file('./Face_recognition_examples/img/groups/team1.jpg')
 face_locations = face_recognition.face_locations(image)
 
 # Array of coords of each face

@@ -1,7 +1,7 @@
 from PIL import Image
 import face_recognition
 
-image = face_recognition.load_image_file('./img/groups/team2.jpg')
+image = face_recognition.load_image_file('./Face_recognition_examples/img/groups/team2.jpg')
 face_locations = face_recognition.face_locations(image)
 
 for face_location in face_locations:

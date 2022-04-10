@@ -1,13 +1,14 @@
 import face_recognition
 from PIL import Image, ImageDraw
 
-image_of_bill = face_recognition.load_image_file('./img/known/Bill_Gates.jpg')
+
+image_of_bill = face_recognition.load_image_file('./Face_recognition_examples/img/known/Bill_Gates.jpg')
 bill_face_encoding = face_recognition.face_encodings(image_of_bill)[0]
 
-image_of_steve = face_recognition.load_image_file('./img/known/Steve_Jobs.jpg')
+image_of_steve = face_recognition.load_image_file('./Face_recognition_examples/img/known/Steve_Jobs.jpg')
 steve_face_encoding = face_recognition.face_encodings(image_of_steve)[0]
 
-image_of_elon = face_recognition.load_image_file('./img/known/Elon_Musk.jpg')
+image_of_elon = face_recognition.load_image_file('./Face_recognition_examples/img/known/Elon_Musk.jpg')
 elon_face_encoding = face_recognition.face_encodings(image_of_elon)[0]
 
 #  Create arrays of encodings and names
@@ -24,7 +25,7 @@ known_face_names = [
 ]
 
 # Load test image to find faces in
-test_image = face_recognition.load_image_file('./img/groups/bill-steve-elon.jpg')
+test_image = face_recognition.load_image_file('./Face_recognition_examples/img/groups/bill-steve-elon.jpg')
 
 # Find faces in test image
 face_locations = face_recognition.face_locations(test_image)
