@@ -14,6 +14,8 @@ Steps to run:<br>
 2.
 Color detection <br>
 <code>python color_detection.py -i &ltimage_name&gt</code><br>
+![output_screenshot](https://user-images.githubusercontent.com/55496113/162629310-1e375513-ae9a-47e6-a6f8-5b21f0a18ef9.png)
+
 <hr>
 3.
 Face Recognition Examples<br>
