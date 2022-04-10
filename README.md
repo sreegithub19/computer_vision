@@ -38,20 +38,12 @@ Foreground detection
 <code>python3 foreground_detection.py</code><br>
 <hr>
 
-6. (incomplete)<br>
-Real Time Emotion Detection<br>
-<code>pip3 install sklearn utils</code><br>
-<code>python3 utils/data_transformer.py</code><br>
-<code>python3 utils/data_land_marker.py</code><br>
-<code>python3 utils/image_classifier.py</code><br>
-<hr>
-
-7.
+6.
 Real Time Face Mask Detection<br>
 <code>pip3 install -r requirements.txt</code>
 <code>python3 main.py</code>
 <hr>
 
-8. WebCam Paint
+7. WebCam Paint
 <code> python3 Webcam_Paint_OpenCV.py </code>
 <hr>
