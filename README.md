@@ -17,7 +17,7 @@ Color detection <br>
 <hr>
 3.
 Face Recognition Examples<br>
-<code>brew install cmake</code><br>
+<code>brew install cmake</code> # for Mac<br>
 <code>pip install face_recognition</code><br>
 <li>
   <ul><code>python3 facematch.py</code></ul>
