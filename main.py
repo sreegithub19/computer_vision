@@ -1,22 +1,22 @@
 from flask import Flask, render_template
 import subprocess
 import sys
-app=Flask('app')
+app=Flask(__name__)
 app.debug = True  #  to activate debug mode 
 # static routing
 @app.route('/cartoonify')
 def cartoonify():
-    return str(subprocess.call(["python","../Cartoonify/cartoonifier-python-project.py"
+    return str(subprocess.call(["python","./Cartoonify/cartoonifier-python-project.py"
 ]))
 
 @app.route('/color_detection')
 def color_detection():
-    return str(subprocess.call(["python","../Color_detection/color_detection.py","-i","../Color_detection/colorpic.jpg"
+    return str(subprocess.call(["python","./Color_detection/color_detection.py","-i","./Color_detection/colorpic.jpg"
 ]))
 
 @app.route('/face_detection')
 def face_detection():
-    return str(subprocess.call(["python","../FaceDetection/Face.py"
+    return str(subprocess.call(["python","./FaceDetection/Face.py"
 ]))
 
 @app.route('/face_recognition')
@@ -29,22 +29,22 @@ def face_recognition():
     """
 @app.route('/facematch')
 def face_match():
-    return str(subprocess.call(["python","../Face_recognition_examples/facematch.py"
+    return str(subprocess.call(["python","./Face_recognition_examples/facematch.py"
 ]))
 
 @app.route('/findfaces')
 def find_faces():
-    return str(subprocess.call(["python","../Face_recognition_examples/findfaces.py"
+    return str(subprocess.call(["python","./Face_recognition_examples/findfaces.py"
 ]))
 
 @app.route('/identify')
 def identify():
-    return str(subprocess.call(["python","../Face_recognition_examples/identify.py"
+    return str(subprocess.call(["python","./Face_recognition_examples/identify.py"
 ]))
 
 @app.route('/pullfaces')
 def pullfaces():
-    return str(subprocess.call(["python","../Face_recognition_examples/pullfaces.py"
+    return str(subprocess.call(["python","./Face_recognition_examples/pullfaces.py"
 ]))
 
 @app.route('/foreground_detection')
