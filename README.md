@@ -36,7 +36,7 @@ Face Detection<br>
 <hr>
 
 5.
-Foreground detection 
+Foreground detection<br>
 <code>python3 foreground_detection.py</code><br>
 <hr>
 
@@ -46,6 +46,6 @@ Real Time Face Mask Detection<br>
 <code>python3 main.py</code>
 <hr>
 
-7. WebCam Paint
+7. WebCam Paint<br>
 <code> python3 Webcam_Paint_OpenCV.py </code>
 <hr>
