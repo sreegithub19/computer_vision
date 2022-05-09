@@ -23,7 +23,6 @@ Face Recognition Examples<br>
 <code>pip install face_recognition</code><br>
 <li>
   <ul><code>python3 facematch.py</code>
-    <ol>trial</ol>
   </ul>
   <ul><code>python3 findfaces.py</code></ul>
   <ul><code>python3 identify.py</code></ul>
